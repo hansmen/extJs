@@ -1,0 +1,49 @@
+.x-treelist-nav .x-treelist-item-selected .x-treelist-item-text
+{
+  color: $base-gray-color;
+}
+
+@include treelist-ui(
+  $ui: 'nav',
+  $background-color: darken($base-color, 20%),
+  $padding: 5px 10px 0 10px,
+
+  $toolstrip-background-color:  $base-light-color,
+
+  $tool-float-indicator-color: $base-gray-color,
+  $tool-float-indicator-width: 4px,
+  $tool-selected-color: $base-gray-color,
+  $tool-selected-background-color: $base-light-color,
+
+  $row-indicator-width: 5px,
+  $row-indicator-selected-color: $base-blue-color,
+  $row-indicator-selected-over-color: $base-blue-color,
+  $row-indicator-over-color: $base-blue-color,
+
+  $item-icon-width: 24px,
+  $item-text-icon-gap: 1px,
+  $item-expander-width: 24px,
+
+  $item-icon-font-size: 16px,
+  $item-text-font-size: 16px,
+  $item-expander-font-size: 16px,
+
+  $item-line-height : 35px,
+  $item-text-overflow: initial,
+
+  $item-icon-color: $base-gray-color, //color icon item
+  $item-text-color: $base-gray-color, //color text item
+  $item-text-over-color: $base-gray-color, //color text item on hover
+
+  $item-expander-color: $base-gray-color,
+  $item-icon-over-color: $base-gray-color,
+
+  $item-expander-over-color: $base-gray-color,
+
+  $item-expanded-child-background-color: white, //bg-children items
+  $item-expanded-background-color: white,
+
+  $row-over-background-color:  $base-color, //bg items on hover
+
+  $row-selected-background-color: $base-color
+);

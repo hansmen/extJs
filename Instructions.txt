@@ -1,0 +1,13 @@
+-цвет заливки меню \my-ext-gen-app\app\desktop\src\view\main\nav\menu\MenuView.js   	style: 'background:#f4f5f7';
+-цвета  панели с заголовком "Сайбер-ПРО" \my-ext-gen-app\app\desktop\src\view\main\nav\top\TopView.scss
+	.topview {
+				color: $base-blue-color;
+				background-color: $base-color;
+		}
+-цвета верхней центральной панели my-ext-gen-app/app/desktop/src/view/main/header/HeaderView.scss класс .headerview
+-цвета пунктов меню my-ext-gen-app/app/desktop/src/view/main/nav/menu/MenuView.scss
+-переменые цветов файл my-ext-gen-app/app/desktop/sass/var.scss
+
+-пункты меню находятся в файле my-ext-gen-app/app/desktop/src/view/main/MainViewModel.js
+- страницы находятся в папке my-ext-gen-app/app/desktop/src/view
+    для создания страниц нужно обезательно создать model в папке my-ext-gen-app/app/shared/src/model и store в папке my-ext-gen-app/app/shared/src/store

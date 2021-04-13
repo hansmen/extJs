@@ -1,0 +1,20 @@
+.headerview {
+	border-left: 0;
+	border-top: 0;
+	color: $base-blue-color;
+	background-color: $base-color;
+}
+
+.headerviewtext { 
+	font-size: 28px; 
+	padding: 0 0 0 15px;
+	line-height: 50px;
+}
+
+@include button-ui(
+	$ui: 'headerbutton',
+	$background-color: transparent,
+	$color: $base-blue-color,
+	$icon-color:  $base-blue-color,
+	$border-color: transparent
+);

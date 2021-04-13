@@ -1,0 +1,11 @@
+{
+	"root": {
+		"expanded": true,
+		"children": [
+			{ "text": "Personnel", "iconCls": "x-fa fa-cog", "xtype": "personnelview", "leaf": true },
+			{ "text": "Reconciliation", "iconCls": "x-fa fa-cog", "xtype": "reconciliationview", "leaf": true },
+//add new items on the next line (from sencha-node generate viewpackage)
+
+		]
+	}
+}
